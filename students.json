@@ -1,0 +1,53 @@
+{
+  "students": [
+    {
+      "name": "Test",
+      "dob": "199-01-01",
+      "addresses": [
+        {
+          "type": "Perm",
+          "flat": 104,
+          "street": "GB",
+          "city": "Vij"
+
+        },
+
+        {
+           "type": "Current",
+          "flat": 105,
+          "street": "GB",
+          "city": "Vij"
+
+
+        }
+     ],
+      "skills": ["java", "python", "golang"]
+    },
+     {
+      "name": "Test1",
+      "dob": "199-01-01",
+      "addresses": [
+        {
+          "type": "Perm",
+          "flat": 107,
+          "street": "GB",
+          "city": "Vij"
+
+        },
+
+        {
+           "type": "Current",
+          "flat": 106,
+          "street": "GB",
+          "city": "Vij"
+
+
+        }
+     ],
+      "skills2": ["java", "python", "golang"]
+
+
+    }
+ ]
+
+}

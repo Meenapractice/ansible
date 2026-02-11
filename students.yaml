@@ -1,0 +1,30 @@
+- name: "Test"
+  dob: "199-01-01"
+  email: "abc"
+  addresses:
+  - type: "Perm"
+    flat: 104
+    street: GB
+    city: Vij
+  
+  - type: "Curr"
+    flat: 105
+    street: street
+    city: vih
+
+- name: "Test1"
+  dob: "199-01-01"
+  email: "abc"
+  addresses:
+  - type: "Perm"
+    flat: 104
+    street: GB
+    city: Vij
+  
+  - type: "Curr"
+    flat: 105
+    street: street
+    city: vih
+
+
+  

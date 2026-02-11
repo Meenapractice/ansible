@@ -1,0 +1,19 @@
+<Students>
+<student>
+  <Name>Test</Name>
+  <DOB>199-01-01</DOB>
+  <Email>abc@gmail.com</Email>
+  <Addresses>
+    <PermAddress>
+    <Flat>104</Flat>
+    <Street>Gandi Nagar</Street>
+    <City>Vij</City>
+    </PermAddress>
+    <CurrentAddress>
+    <Flat>104</Flat>
+    <Street>Gandi Nagar</Street>
+    <City>Vij</City>
+    </CurrentAddress>
+  </Addresses>
+</student>
+</Students>
