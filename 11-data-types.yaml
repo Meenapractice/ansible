@@ -12,6 +12,7 @@
    - Linux
    - Shell
    - Ansible
+   
    tasks:
    - name: data types
      ansible.builtin.debug:
