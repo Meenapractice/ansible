@@ -1,0 +1,17 @@
+- name: ansible command and Shell
+  hosts: local
+  connection: local
+  tasks:
+  - name: ansible command and Shell
+    ansible.builtin.command: cat /etc/password | grep "root"
+    register: users_output
+  - name: print users_output
+    ansible.builtin.debug:
+      msg: "{{ users_output }}"
+
+  - name: ansible command and Shell
+    ansible.builtin.command: ls -ltr > files.txt
+    register: files_output
+  - name: print files_output
+    ansible.builtin.debug:
+      msg: "{{ files_output }}"
