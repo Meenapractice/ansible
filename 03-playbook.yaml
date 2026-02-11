@@ -5,7 +5,7 @@
   - name: "Installing nginx"
     ansible.builtin.package:
       name: nginx
-      state: installed
+      state: present
 
   - name: "Running nginx"
     ansible.builtin.package:
