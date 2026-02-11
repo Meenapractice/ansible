@@ -14,7 +14,7 @@
   
   - name: map to list
     ansible.builtin.debug:
-      msg: "{{ tagMap | dict2list }}"
+      msg: "{{ tagMap | dict2items }}"
 
   - name: read the yaml file
     ansible.builtin.set_fact:
