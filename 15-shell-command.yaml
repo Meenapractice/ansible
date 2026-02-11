@@ -3,7 +3,7 @@
   connection: local
   tasks:
   - name: ansible command and Shell
-    ansible.builtin.command: cat /etc/password | grep "root"
+    ansible.builtin.command: cat /etc/password | grep root
     register: users_output
   - name: print users_output
     ansible.builtin.debug:
