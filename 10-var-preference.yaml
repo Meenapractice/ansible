@@ -11,8 +11,8 @@
     private: false
   tasks:
   - name: variable pref
-    vars:
-      NAME: "Ansible from TASK"
+    # vars:
+    #   NAME: "Ansible from TASK"
     ansible.builtin.debug:
       msg: "Hello {{ NAME }}"
     
